@@ -1,0 +1,46 @@
+images/
+├── foto1.jpg
+├── foto2.jpg
+├── foto3.jpg
+├── foto4.jpg
+├── foto5.jpg
+├── foto6.jpg
+├── foto7.jpg
+└── foto8.jpg
+<section>
+<h2>Lluvia de Sobres</h2>
+<section id="galeria">
+
+<h2>Mis Recuerdos</h2>
+
+<div class="galeria">
+
+<img src="images/foto1.jpg" alt="Foto 1">
+<img src="images/foto2.jpg" alt="Foto 2">
+<img src="images/foto3.jpg" alt="Foto 3">
+<img src="images/foto4.jpg" alt="Foto 4">
+<img src="images/foto5.jpg" alt="Foto 5">
+<img src="images/foto6.jpg" alt="Foto 6">
+<img src="images/foto7.jpg" alt="Foto 7">
+<img src="images/foto8.jpg" alt="Foto 8">
+
+</div>
+
+</section>
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.galeria img{
+width:100%;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+}
