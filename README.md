@@ -103,7 +103,7 @@ Por eso deseo compartir contigo la alegría de celebrar mis XV años.
 
 📍 Secretaría de Recursos Hidráulicos y Calle 24
 
-Col. San Jorge
+Colonia San Jorge
 
 <br><br>
 
@@ -134,7 +134,7 @@ Ver ubicación
 
 Av. Nueva España #4007
 
-Col. 3 de Mayo
+Colonia 3 de Mayo
 
 <br><br>
 
