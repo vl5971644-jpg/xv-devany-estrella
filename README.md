@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+/* Aquí termina el código que ya tenías */
+
+...última línea del archivo...
+
+/* Pega aquí el nuevo código */
+
+@keyframes aparecer{
+   ...
+}<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
