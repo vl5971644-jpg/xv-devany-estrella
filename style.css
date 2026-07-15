@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f8f1ff;
+    color:#5b2c6f;
+    text-align:center;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(120,60,170,.6),rgba(120,60,170,.6)),
+    url("images/fondo.jpg") center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    padding:30px;
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    font-size:60px;
+    color:#fff;
+}
+
+h2{
+    color:#8e44ad;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#d4af37;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 20px;
+}
+
+#countdown{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+#countdown div{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    min-width:80px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+#countdown span{
+    font-size:32px;
+    font-weight:bold;
+}
