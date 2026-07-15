@@ -173,7 +173,79 @@ Héctor Ricardo García Zavala
 Zabdy Vanessa Pérez Leyva
 
 </p>
+images/
+├── foto1.jpg
+├── foto2.jpg
+├── foto3.jpg
+├── foto4.jpg
+├── foto5.jpg
+├── foto6.jpg
+├── foto7.jpg
+└── foto8.jpg
+<audio id="musica" loop>
+    <source src="music/iris.mp3" type="audio/mpeg">
+</audio>
 
+<section>
+    <h2>Nuestra Canción</h2>
+
+    <button class="btn" onclick="reproducirMusica()">
+        🎵 Reproducir / Pausar Música
+    </button>
+</section>const musica = document.getElementById("musica");
+
+function reproducirMusica() {
+    if (musica.paused) {
+        musica.play();
+    } else {
+        musica.pause();
+    }
+}/* Animación de aparición */
+section{
+    opacity:0;
+    transform:translateY(40px);
+    animation:aparecer 1s ease forwards;
+}
+
+section:nth-child(2){animation-delay:.3s;}
+section:nth-child(3){animation-delay:.6s;}
+section:nth-child(4){animation-delay:.9s;}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Botón con efecto */
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 10px 30px rgba(212,175,55,.5);
+}
+
+/* Tarjetas */
+section{
+    background:white;
+    margin:30px auto;
+    width:90%;
+    max-width:900px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+/* Fondo */
+body{
+    background:linear-gradient(180deg,#f7e8ff,#ffffff,#f2d7ff);
+}
 </section>
 
 <section>
