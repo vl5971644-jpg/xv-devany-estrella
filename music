@@ -1,0 +1,29 @@
+music/iris.mp3
+<script src="script.js"></script>
+<audio id="musica" loop>
+    <source src="music/iris.mp3" type="audio/mpeg">
+</audio>
+
+<section>
+    <h2>Nuestra Canción</h2>
+
+    <button class="btn" onclick="reproducirMusica()">
+        🎵 Reproducir / Pausar Música
+    </button>
+</section>const musica = document.getElementById("musica");
+
+function reproducirMusica() {
+    if (musica.paused) {
+        musica.play();
+    } else {
+        musica.pause();
+    }
+}const musica = document.getElementById("musica");
+
+function reproducirMusica() {
+    if (musica.paused) {
+        musica.play();
+    } else {
+        musica.pause();
+    }
+}
